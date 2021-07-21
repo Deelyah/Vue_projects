@@ -1,0 +1,106 @@
+/* This section is for the neutral view of the page */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin-top: 30px;
+    padding: 0;
+    background-color: transparent;
+}
+
+#imgContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#innerContainer{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    background: linear-gradient(to top right, #ffffff 0%, #999966 100%)
+}
+
+img{
+    width: 80%;
+    height: 90%;
+    background-color: transparent;
+    margin-top: 6px;
+    margin-left: 20px;
+}
+
+#Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#Contents{
+    width: 500px;
+    background-color:  DodgerBlue;
+    outline: 2px solid #777;
+    
+    
+}
+
+label{
+    display: block;
+    margin-top: 20px;
+}
+
+form{
+  margin: 10px;
+   
+}
+
+input[type = text], input[type = number], input[type = password], input[type = email]{
+    width: 90%;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 2px;
+    display: inline-block;
+    background: linear-gradient(to top right, #ffffff 0%, #999966 100%);
+}
+
+#submit{
+    margin: 30px 0px;
+    width: 90%;
+    background-color: rgb(17, 207, 33);
+    border-radius: 7px; 
+    padding: 12px 12px;
+}
+
+#newHobby{
+    margin: 10px 0;
+    padding: 5px 5px;
+    border-radius: 5px;
+    background: linear-gradient(to top right, #ffffff 0%, #999966 100%)
+}
+
+/* this section is for the error css and messages */
+
+#NameError{
+    color: red;
+   
+}
+
+#phoneError{
+    color: red;
+}
+
+#passwordError{
+    color: red;
+}
+
+/* error messages are finished */
+
+/* Responsive designing */
+@media screen and (min-width: 400px){
+    
+}
