@@ -11,7 +11,7 @@ Vue.component("Login", {
                 </div>
             </section>
 
-            <form action="" method="" @submit.prevent='validation' >
+            <form action="validate.html" method="get" @submit.prevent='validation' >
                 
                 <label for="name">Name</label>
                 <input type="text" v-model="Name" placeholder="Enter your name" id="name">
